@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<configuration>
+    <!-- 定义常量 -->
+    <properties>
+        <!-- 日志文件存放路径 -->
+        <property name="LOG_HOME">logs</property>
+        <!-- 文件输出格式 -->
+        <property name="ROLLINGFILE_PATTERN">[%p|%d{yyyy-MM-dd HH:mm:ss,SSS}] - [%t|%c{1}|%M|%L] - %m%n</property>
+    </properties>
+
+    <appenders>
+        <!-- 输出控制台的配置 -->
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout charset="UTF-8" pattern="${ROLLINGFILE_PATTERN}"/>
+        </Console>
+        <!-- TRACE < DEBUG < INFO < WARN < ERROR < FATAL -->
+        <RollingFile name="DEBUG" fileName="${LOG_HOME}/debug.log" filePattern="${LOG_HOME}/debug_%d{yyyy-MM-dd}.log">
+            <PatternLayout charset="UTF-8" pattern="${ROLLINGFILE_PATTERN}"/>
+            <Filters>
+                <!-- 屏蔽比level更高级别或者同等级别的日志 -->
+                <ThresholdFilter level="info" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <!-- 输出比level更高级别或者同等级别的日志 -->
+                <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <Policies>
+                <!-- 按24小时(1天)生成一个文件 -->
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <!-- 最多保存日志文件数 -->
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+
+        <RollingFile name="INFO" fileName="${LOG_HOME}/info.log" filePattern="${LOG_HOME}/info_%d{yyyy-MM-dd}.log">
+            <PatternLayout charset="UTF-8" pattern="${ROLLINGFILE_PATTERN}"/>
+            <Filters>
+                <ThresholdFilter level="warn" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+
+        <RollingFile name="WARN" fileName="${LOG_HOME}/warn.log" filePattern="${LOG_HOME}/warn_%d{yyyy-MM-dd}.log">
+            <PatternLayout charset="UTF-8" pattern="${ROLLINGFILE_PATTERN}"/>
+            <Filters>
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="NEUTRAL"/>
+                <ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+
+        <RollingFile name="ERROR" fileName="${LOG_HOME}/error.log" filePattern="${LOG_HOME}/error_%d{yyyy-MM-dd}.log">
+            <PatternLayout charset="UTF-8" pattern="${ROLLINGFILE_PATTERN}"/>
+            <Filters>
+                <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+    </appenders>
+
+    <!--定义logger，只有定义了logger并引入的appender，appender才会生效-->
+    <loggers>
+        <!-- 只打印info级别以上的 -->
+        <Root level="INFO">
+            <AppenderRef ref="CONSOLE"/>
+            <AppenderRef ref="DEBUG"/>
+            <AppenderRef ref="INFO"/>
+            <AppenderRef ref="WARN"/>
+            <AppenderRef ref="ERROR"/>
+        </Root>
+    </loggers>
+
+</configuration>

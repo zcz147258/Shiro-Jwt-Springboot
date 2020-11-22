@@ -1,0 +1,81 @@
+[INFO|2020-11-20 11:49:49,227] - [background-preinit|Version|<clinit>|21] - HV000001: Hibernate Validator 6.1.5.Final
+[INFO|2020-11-20 11:49:49,339] - [main|TestApplication|logStarting|55] - Starting TestApplication on SC-202005150939 with PID 10204 (E:\gbn_java_pro\shiro_detail\target\classes started by Administrator in E:\gbn_java_pro\shiro_detail)
+[INFO|2020-11-20 11:49:49,343] - [main|TestApplication|logStartupProfileInfo|651] - No active profile set, falling back to default profiles: default
+[INFO|2020-11-20 11:49:50,889] - [main|TomcatWebServer|initialize|91] - Tomcat initialized with port(s): 8009 (http)
+[INFO|2020-11-20 11:49:50,903] - [main|Http11NioProtocol|log|173] - Initializing ProtocolHandler ["http-nio-8009"]
+[INFO|2020-11-20 11:49:50,905] - [main|StandardService|log|173] - Starting service [Tomcat]
+[INFO|2020-11-20 11:49:50,905] - [main|StandardEngine|log|173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO|2020-11-20 11:49:51,019] - [main|[/]|log|173] - Initializing Spring embedded WebApplicationContext
+[INFO|2020-11-20 11:49:51,019] - [main|ServletWebServerApplicationContext|prepareWebApplicationContext|283] - Root WebApplicationContext: initialization completed in 1632 ms
+[INFO|2020-11-20 11:49:51,177] - [main|StandardService|log|173] - Stopping service [Tomcat]
+[INFO|2020-11-20 11:49:51,191] - [main|ConditionEvaluationReportLoggingListener|logMessage|136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO|2020-11-20 13:12:58,326] - [background-preinit|Version|<clinit>|21] - HV000001: Hibernate Validator 6.1.5.Final
+[INFO|2020-11-20 13:12:58,458] - [main|TestApplication|logStarting|55] - Starting TestApplication on SC-202005150939 with PID 6640 (E:\gbn_java_pro\shiro_detail\target\classes started by Administrator in E:\gbn_java_pro\shiro_detail)
+[INFO|2020-11-20 13:12:58,491] - [main|TestApplication|logStartupProfileInfo|651] - No active profile set, falling back to default profiles: default
+[INFO|2020-11-20 13:13:03,312] - [main|TomcatWebServer|initialize|91] - Tomcat initialized with port(s): 8009 (http)
+[INFO|2020-11-20 13:13:03,453] - [main|Http11NioProtocol|log|173] - Initializing ProtocolHandler ["http-nio-8009"]
+[INFO|2020-11-20 13:13:03,455] - [main|StandardService|log|173] - Starting service [Tomcat]
+[INFO|2020-11-20 13:13:03,455] - [main|StandardEngine|log|173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO|2020-11-20 13:13:03,701] - [main|[/]|log|173] - Initializing Spring embedded WebApplicationContext
+[INFO|2020-11-20 13:13:03,701] - [main|ServletWebServerApplicationContext|prepareWebApplicationContext|283] - Root WebApplicationContext: initialization completed in 5075 ms
+[INFO|2020-11-20 13:13:04,017] - [main|StandardService|log|173] - Stopping service [Tomcat]
+[INFO|2020-11-20 13:13:04,097] - [main|ConditionEvaluationReportLoggingListener|logMessage|136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO|2020-11-20 14:12:24,177] - [background-preinit|Version|<clinit>|21] - HV000001: Hibernate Validator 6.1.5.Final
+[INFO|2020-11-20 14:12:24,371] - [main|TestApplication|logStarting|55] - Starting TestApplication on SC-202005150939 with PID 10948 (E:\gbn_java_pro\shiro_detail\target\classes started by Administrator in E:\gbn_java_pro\shiro_detail)
+[INFO|2020-11-20 14:12:24,381] - [main|TestApplication|logStartupProfileInfo|651] - No active profile set, falling back to default profiles: default
+[INFO|2020-11-20 14:12:26,535] - [main|TomcatWebServer|initialize|91] - Tomcat initialized with port(s): 8009 (http)
+[INFO|2020-11-20 14:12:26,552] - [main|Http11NioProtocol|log|173] - Initializing ProtocolHandler ["http-nio-8009"]
+[INFO|2020-11-20 14:12:26,553] - [main|StandardService|log|173] - Starting service [Tomcat]
+[INFO|2020-11-20 14:12:26,554] - [main|StandardEngine|log|173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO|2020-11-20 14:12:26,837] - [main|[/]|log|173] - Initializing Spring embedded WebApplicationContext
+[INFO|2020-11-20 14:12:26,838] - [main|ServletWebServerApplicationContext|prepareWebApplicationContext|283] - Root WebApplicationContext: initialization completed in 2388 ms
+[INFO|2020-11-20 14:12:27,005] - [main|StandardService|log|173] - Stopping service [Tomcat]
+[INFO|2020-11-20 14:12:27,056] - [main|ConditionEvaluationReportLoggingListener|logMessage|136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO|2020-11-20 14:24:16,519] - [background-preinit|Version|<clinit>|21] - HV000001: Hibernate Validator 6.1.5.Final
+[INFO|2020-11-20 14:24:16,603] - [main|TestApplication|logStarting|55] - Starting TestApplication on SC-202005150939 with PID 9252 (E:\gbn_java_pro\shiro_detail\target\classes started by Administrator in E:\gbn_java_pro\shiro_detail)
+[INFO|2020-11-20 14:24:16,612] - [main|TestApplication|logStartupProfileInfo|651] - No active profile set, falling back to default profiles: default
+[INFO|2020-11-20 14:25:58,129] - [background-preinit|Version|<clinit>|21] - HV000001: Hibernate Validator 6.1.5.Final
+[INFO|2020-11-20 14:25:58,219] - [main|TestApplication|logStarting|55] - Starting TestApplication on SC-202005150939 with PID 6372 (E:\gbn_java_pro\shiro_detail\target\classes started by Administrator in E:\gbn_java_pro\shiro_detail)
+[INFO|2020-11-20 14:25:58,229] - [main|TestApplication|logStartupProfileInfo|651] - No active profile set, falling back to default profiles: default
+[INFO|2020-11-20 14:27:59,502] - [background-preinit|Version|<clinit>|21] - HV000001: Hibernate Validator 6.1.5.Final
+[INFO|2020-11-20 14:27:59,561] - [main|TestApplication|logStarting|55] - Starting TestApplication on SC-202005150939 with PID 4188 (E:\gbn_java_pro\shiro_detail\target\classes started by Administrator in E:\gbn_java_pro\shiro_detail)
+[INFO|2020-11-20 14:27:59,566] - [main|TestApplication|logStartupProfileInfo|651] - No active profile set, falling back to default profiles: default
+[INFO|2020-11-20 14:28:00,926] - [main|TomcatWebServer|initialize|91] - Tomcat initialized with port(s): 8009 (http)
+[INFO|2020-11-20 14:28:00,936] - [main|Http11NioProtocol|log|173] - Initializing ProtocolHandler ["http-nio-8009"]
+[INFO|2020-11-20 14:28:00,937] - [main|StandardService|log|173] - Starting service [Tomcat]
+[INFO|2020-11-20 14:28:00,938] - [main|StandardEngine|log|173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO|2020-11-20 14:28:01,060] - [main|[/]|log|173] - Initializing Spring embedded WebApplicationContext
+[INFO|2020-11-20 14:28:01,060] - [main|ServletWebServerApplicationContext|prepareWebApplicationContext|283] - Root WebApplicationContext: initialization completed in 1431 ms
+[INFO|2020-11-20 14:28:02,228] - [main|ThreadPoolTaskExecutor|initialize|181] - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO|2020-11-20 14:28:02,788] - [main|Http11NioProtocol|log|173] - Starting ProtocolHandler ["http-nio-8009"]
+[INFO|2020-11-20 14:28:02,815] - [main|TomcatWebServer|start|203] - Tomcat started on port(s): 8009 (http) with context path ''
+[INFO|2020-11-20 14:28:02,818] - [main|TestApplication|logStarted|61] - Started TestApplication in 3.646 seconds (JVM running for 5.34)
+[INFO|2020-11-20 14:56:20,478] - [background-preinit|Version|<clinit>|21] - HV000001: Hibernate Validator 6.1.5.Final
+[INFO|2020-11-20 14:56:20,530] - [main|TestApplication|logStarting|55] - Starting TestApplication on SC-202005150939 with PID 7940 (E:\gbn_java_pro\shiro_detail\target\classes started by Administrator in E:\gbn_java_pro\shiro_detail)
+[INFO|2020-11-20 14:56:20,535] - [main|TestApplication|logStartupProfileInfo|651] - No active profile set, falling back to default profiles: default
+[INFO|2020-11-20 14:56:22,049] - [main|TomcatWebServer|initialize|91] - Tomcat initialized with port(s): 8009 (http)
+[INFO|2020-11-20 14:56:22,057] - [main|Http11NioProtocol|log|173] - Initializing ProtocolHandler ["http-nio-8009"]
+[INFO|2020-11-20 14:56:22,058] - [main|StandardService|log|173] - Starting service [Tomcat]
+[INFO|2020-11-20 14:56:22,058] - [main|StandardEngine|log|173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+[INFO|2020-11-20 14:56:22,131] - [main|[/]|log|173] - Initializing Spring embedded WebApplicationContext
+[INFO|2020-11-20 14:56:22,132] - [main|ServletWebServerApplicationContext|prepareWebApplicationContext|283] - Root WebApplicationContext: initialization completed in 1537 ms
+[INFO|2020-11-20 14:56:23,534] - [main|PropertySourcedRequestMappingHandlerMapping|initHandlerMethods|69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[INFO|2020-11-20 14:56:23,729] - [main|ThreadPoolTaskExecutor|initialize|181] - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO|2020-11-20 14:56:24,229] - [main|DocumentationPluginsBootstrapper|start|160] - Context refreshed
+[INFO|2020-11-20 14:56:24,250] - [main|DocumentationPluginsBootstrapper|start|163] - Found 1 custom documentation plugin(s)
+[INFO|2020-11-20 14:56:24,279] - [main|ApiListingReferenceScanner|scan|41] - Scanning for api listing references
+[INFO|2020-11-20 14:56:24,459] - [main|Http11NioProtocol|log|173] - Starting ProtocolHandler ["http-nio-8009"]
+[INFO|2020-11-20 14:56:24,493] - [main|TomcatWebServer|start|203] - Tomcat started on port(s): 8009 (http) with context path ''
+[INFO|2020-11-20 14:56:24,495] - [main|TestApplication|logStarted|61] - Started TestApplication in 4.403 seconds (JVM running for 6.483)
+[INFO|2020-11-20 14:56:40,149] - [http-nio-8009-exec-1|[/]|log|173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO|2020-11-20 14:56:40,149] - [http-nio-8009-exec-1|DispatcherServlet|initServletBean|525] - Initializing Servlet 'dispatcherServlet'
+[INFO|2020-11-20 14:56:40,174] - [http-nio-8009-exec-1|DispatcherServlet|initServletBean|547] - Completed initialization in 24 ms
+[INFO|2020-11-20 14:56:40,677] - [http-nio-8009-exec-2|LogResponseBodyAdvice|beforeBodyWrite|32] - uri=/error | responseBody={"timestamp":1605855400482,"status":404,"error":"Not Found","message":"No message available","path":"/favicon.ico"}
+[INFO|2020-11-20 14:56:45,406] - [http-nio-8009-exec-7|LogResponseBodyAdvice|beforeBodyWrite|32] - uri=/swagger-resources | responseBody=[{"location":"/v2/api-docs?group=znq-service","name":"znq-service","swaggerVersion":"2.0","url":"/v2/api-docs?group=znq-service"}]
+[INFO|2020-11-20 14:56:45,699] - [http-nio-8009-exec-8|LogResponseBodyAdvice|beforeBodyWrite|32] - uri=/v2/api-docs | responseBody={}
